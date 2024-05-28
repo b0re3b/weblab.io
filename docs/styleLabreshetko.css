@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+#page {
+	position: absolute;
+    padding-bottom: 0px;
+    background-color: #ffffff;
+	width: 100%;
+	height: 1600px;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+}
+#right {
+    position: absolute;
+    height: auto;
+    width: 10%;
+    right: 0;
+    top: 0;
+}
+#header {
+    position: absolute;
+    background-color: #B1B7BA;
+    height: 150px;
+    width: 100%;
+    top: 0;
+}
+#menu {
+    position: absolute;
+    background-color: #737E80;
+    height: 70px;
+    width: 100%;
+    top: 150px;
+}
+
+ul.menuList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 4px;
+}
+
+ul.menuList li {
+    list-style-type: none;
+    size: 100%;
+    padding: 15px;
+    margin-right: 120px;
+    font-size: 5;
+}
+#slider {
+    position: absolute;
+    background-color: #737E80;
+    height: 350px;
+    width: 100%;
+    top: 220px;
+}
+#content {
+    position:absolute;
+    width: 100%;
+    height: 380px;
+    top: 570px;
+}
+#news {
+    position: absolute;
+    background-color: #737E80;
+    width: 28%;
+    height: 650px;
+    left: 100px;
+    top: 30px
+}
+#maintext {
+    position: absolute;
+    background-color: #ffffff;
+    width: 50%;
+    height: 650px;
+    top: 30px;
+    right: 150px;
+}
+#delivery_payment{
+    position: absolute;
+    background-color: #ffffff;
+    width: 50%;
+    height: 650px;
+    top: 30px;
+    right: 150px;
+}
+#contacts{
+    position: absolute;
+    background-color: #ffffff;
+    width: 50%;
+    height: 650px;
+    top: 30px;
+    right: 150px;
+}
+#footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: #B1B7BA;
+    width: 100%;
+    height: 200px;
+}
+.Bold36Gr {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #777777;
+}
+.Bold38{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #ffffff;
+}
+.Bold36Bl{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+}
+.Regular14Gr{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+}
+.Regular28{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #ffffff
+}
+.Regular14Wh{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff
+}
+.Regular14Bl{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:22px;
+    color: #000000;
+}
+.Italic38{
+    font-family: 'PT Sans', sans-serif;
+    font-style:italic;
+    font-weight: 400;
+    font-size: 38px;
+    color: #ffffff;
+}
+.Italic14{
+    font-family: 'PT Sans', sans-serif;
+    font-style:italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+}
